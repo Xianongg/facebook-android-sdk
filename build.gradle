@@ -43,4 +43,5 @@ allprojects {
     }
 
     project.apply from: "${rootDir}/constants.gradle"
+    apply plugin: "jacoco"
 }
